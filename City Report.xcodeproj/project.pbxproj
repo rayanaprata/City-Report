@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88224E5E2886404400E5B8C5 /* DataBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88224E5D2886404400E5B8C5 /* DataBaseController.swift */; };
+		88224E602886462C00E5B8C5 /* ProblemaUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88224E5F2886462C00E5B8C5 /* ProblemaUITableViewController.swift */; };
+		88224E63288648E700E5B8C5 /* DateToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88224E62288648E700E5B8C5 /* DateToString.swift */; };
+		88224E65288648F900E5B8C5 /* StringToDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88224E64288648F900E5B8C5 /* StringToDate.swift */; };
+		88224E6828864C0500E5B8C5 /* CadastrarProblemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88224E6728864C0500E5B8C5 /* CadastrarProblemaViewController.swift */; };
+		88224E6A28864C3E00E5B8C5 /* DetalhesDoProblemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88224E6928864C3E00E5B8C5 /* DetalhesDoProblemaViewController.swift */; };
 		8841F2ED287FA04600F6283C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841F2EC287FA04600F6283C /* AppDelegate.swift */; };
 		8841F2EF287FA04600F6283C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841F2EE287FA04600F6283C /* SceneDelegate.swift */; };
-		8841F2F1287FA04600F6283C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841F2F0287FA04600F6283C /* ViewController.swift */; };
 		8841F2F4287FA04600F6283C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8841F2F2287FA04600F6283C /* Main.storyboard */; };
 		8841F2F7287FA04600F6283C /* City_Report.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8841F2F5287FA04600F6283C /* City_Report.xcdatamodeld */; };
 		8841F2F9287FA04700F6283C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8841F2F8287FA04700F6283C /* Assets.xcassets */; };
@@ -17,10 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88224E5D2886404400E5B8C5 /* DataBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseController.swift; sourceTree = "<group>"; };
+		88224E5F2886462C00E5B8C5 /* ProblemaUITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemaUITableViewController.swift; sourceTree = "<group>"; };
+		88224E62288648E700E5B8C5 /* DateToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateToString.swift; sourceTree = "<group>"; };
+		88224E64288648F900E5B8C5 /* StringToDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToDate.swift; sourceTree = "<group>"; };
+		88224E6728864C0500E5B8C5 /* CadastrarProblemaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastrarProblemaViewController.swift; sourceTree = "<group>"; };
+		88224E6928864C3E00E5B8C5 /* DetalhesDoProblemaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesDoProblemaViewController.swift; sourceTree = "<group>"; };
 		8841F2E9287FA04600F6283C /* City Report.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Report.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8841F2EC287FA04600F6283C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8841F2EE287FA04600F6283C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8841F2F0287FA04600F6283C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8841F2F3287FA04600F6283C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8841F2F6287FA04600F6283C /* City_Report.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = City_Report.xcdatamodel; sourceTree = "<group>"; };
 		8841F2F8287FA04700F6283C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88224E61288648DB00E5B8C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				88224E62288648E700E5B8C5 /* DateToString.swift */,
+				88224E64288648F900E5B8C5 /* StringToDate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		8841F2E0287FA04600F6283C = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +77,18 @@
 		8841F2EB287FA04600F6283C /* City Report */ = {
 			isa = PBXGroup;
 			children = (
+				88224E61288648DB00E5B8C5 /* Extensions */,
+				88224E5D2886404400E5B8C5 /* DataBaseController.swift */,
 				8841F2EC287FA04600F6283C /* AppDelegate.swift */,
 				8841F2EE287FA04600F6283C /* SceneDelegate.swift */,
-				8841F2F0287FA04600F6283C /* ViewController.swift */,
 				8841F2F2287FA04600F6283C /* Main.storyboard */,
 				8841F2F8287FA04700F6283C /* Assets.xcassets */,
 				8841F2FA287FA04700F6283C /* LaunchScreen.storyboard */,
 				8841F2FD287FA04700F6283C /* Info.plist */,
 				8841F2F5287FA04600F6283C /* City_Report.xcdatamodeld */,
+				88224E5F2886462C00E5B8C5 /* ProblemaUITableViewController.swift */,
+				88224E6728864C0500E5B8C5 /* CadastrarProblemaViewController.swift */,
+				88224E6928864C3E00E5B8C5 /* DetalhesDoProblemaViewController.swift */,
 			);
 			path = "City Report";
 			sourceTree = "<group>";
@@ -141,9 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88224E5E2886404400E5B8C5 /* DataBaseController.swift in Sources */,
 				8841F2F7287FA04600F6283C /* City_Report.xcdatamodeld in Sources */,
-				8841F2F1287FA04600F6283C /* ViewController.swift in Sources */,
+				88224E6A28864C3E00E5B8C5 /* DetalhesDoProblemaViewController.swift in Sources */,
+				88224E602886462C00E5B8C5 /* ProblemaUITableViewController.swift in Sources */,
 				8841F2ED287FA04600F6283C /* AppDelegate.swift in Sources */,
+				88224E65288648F900E5B8C5 /* StringToDate.swift in Sources */,
+				88224E63288648E700E5B8C5 /* DateToString.swift in Sources */,
+				88224E6828864C0500E5B8C5 /* CadastrarProblemaViewController.swift in Sources */,
 				8841F2EF287FA04600F6283C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
